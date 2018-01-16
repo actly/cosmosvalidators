@@ -216,7 +216,7 @@ $ cd $GAIANET
     <p>Now you can run your own node. It will take some time to sync up. You can check the current status (including the latest block height) of the <code>gaia-1</code> network <a href="http://gaia-1-node0.testnets.interblock.io:46657/status">here</a>.</p>
 
 <pre>
-$ gaia start --home=$GAIANET
+$ gaia node start --home=$GAIANET
 ... ...
 I[11-07|18:07:44.857] Committed state                              module=state height=1458 txs=0 hash=951D888E60F268E05AA7B87C0F45233479F37D25
 ... ...
@@ -224,7 +224,7 @@ I[11-07|18:07:44.857] Committed state                              module=state 
 
     <h2>Bond your node as a validator</h2>
 
-    <p>To bond your node as a validator of the <code>gaia-1</code> network, you need two pieces of information.</p>
+    <p>To bond your node as a validator of the <code>gaia-2</code> network, you need two pieces of information.</p>
 
     <ul>
       <li>The wallet that provides the tokens to bond. We already have it when we setup the wallet. It is <code>MyAccount</code> in our case.</li>
